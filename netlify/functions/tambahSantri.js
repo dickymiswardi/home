@@ -13,7 +13,7 @@ export async function handler(event) {
   }
 
   const fileName = `kelas_${kelas.split("_")[1]}.json`;
-  const githubApiUrl = `https://api.github.com/repos/dickymiswardi/usermtq/contents/${fileName}`;
+  const githubApiUrl = `https://api.github.com/repos/dickymiswardi/private/contents/${fileName}`;
 
   try {
     // 🔹 1. Ambil file lama (dari GitHub API)
