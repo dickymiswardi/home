@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const GITHUB_REPO = 'dickymiswardi/usermtq';
+const GITHUB_REPO = 'dickymiswardi/private';
 const FILE_PATH = 'autoUpdateAllJuz.json';
 const BRANCH = 'main';
 const TOKEN = process.env.MTQ_TOKEN;
