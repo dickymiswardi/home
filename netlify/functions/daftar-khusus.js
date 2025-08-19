@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const REPO = 'dickymiswardi/usermtq';
+const REPO = 'dickymiswardi/private';
 const TOKEN = process.env.MTQ_TOKEN;
 const BRANCH = 'main';
 
